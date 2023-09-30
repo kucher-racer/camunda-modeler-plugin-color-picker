@@ -1,0 +1,42 @@
+{
+  "name": "camunda-modeler-plugin-color-picker",
+  "version": "3.1.0",
+  "description": "Plugin color picker for elements for the Camunda Modeler",
+  "main": "index.js",
+  "scripts": {
+    "all": "run-s bundle",
+    "bundle": "webpack",
+    "dev": "webpack -w",
+    "prepublishOnly": "run-s bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camunda/camunda-modeler-plugin-example.git"
+  },
+  "keywords": [
+    "camunda",
+    "modeler",
+    "plugin"
+  ],
+  "author": "Valeriy Ponomarenko",
+  "license": "MIT",
+  "devDependencies": {
+    "bpmn-js": "^14.0.0",
+    "camunda-modeler-plugin-helpers": "^5.0.0",
+    "evol-colorpicker": "^3.4.3",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.2",
+    "min-dom": "^0.2.0",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "dependencies": {
+    "jquery-widget": "^0.1.8",
+    "jquery.js": "^0.0.2-security"
+  }
+}
